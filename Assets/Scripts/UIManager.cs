@@ -7,6 +7,9 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour {
 
 	[SerializeField]
+	private Database myDatebase;
+
+	[SerializeField]
 	private GameObject imageModeScreen;
 
 	[SerializeField]
@@ -17,6 +20,15 @@ public class UIManager : MonoBehaviour {
 
 	[SerializeField]
 	private GameObject mainMenuScreen;
+
+	[SerializeField]
+	private Image[] imagesTrio;
+
+	[SerializeField]
+	private Text[] wordsTrio;
+
+	[SerializeField]
+	private Image[] abstractImage;
 
 	public static UIManager Singleton
 	{
@@ -35,6 +47,25 @@ public class UIManager : MonoBehaviour {
 	{
 		mainMenuScreen.SetActive(false);
 		imageModeScreen.SetActive(true);
+
+		SetImageTrio();
+
+	}
+
+	public void SetImageTrio()
+	{	
+		List<int> numsAdded = new List<int>();
+
+		foreach(Image temp in imagesTrio)
+		{
+			int randomNum = 0; 
+			while(numsAdded.Contains(randomNum))
+			{
+				randomNum = Random.Range(0,myDatebase.imageBase.Length);
+			}
+			numsAdded.Add(randomNum);
+			temp.sprite = myDatebase.imageBase[randomNum];
+		}
 	}
 
 	public void SetActiveWordsMode(bool state)

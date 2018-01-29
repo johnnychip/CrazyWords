@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour {
 	
 	public void SetImageMode ()
 	{
-
+		UIManager.Singleton.SetActiveImageMode(true);
 	}
 
 	public void SetWordsMode ()
@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour {
 
 	public void SetAbstractMode ()
 	{
-		
+
 	}
 
 }

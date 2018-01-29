@@ -6,7 +6,6 @@ public class Database : ScriptableObject {
 
 	public Sprite[] imageBase;
 	public string[] wordsBase;
-
 	public Sprite[] abstractBase;
 
 }
