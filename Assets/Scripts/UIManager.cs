@@ -75,6 +75,22 @@ public class UIManager : MonoBehaviour {
 
 	}
 
+	public void SetWordsTrio()
+	{	
+		List<int> numsAdded = new List<int>();
+
+		foreach(Text temp in wordsTrio)
+		{
+			int randomNum = 0; 
+			do 
+			{
+				randomNum = Random.Range(0,myDatebase.wordsBase.Length);
+			}while(numsAdded.Contains(randomNum));
+			numsAdded.Add(randomNum);
+			temp.text = myDatebase.wordsBase[randomNum];
+		}
+	}
+
 	public void SetActiveAbstractMode(bool state)
 	{
 		mainMenuScreen.SetActive(false);
