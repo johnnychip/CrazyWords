@@ -59,10 +59,10 @@ public class UIManager : MonoBehaviour {
 		foreach(Image temp in imagesTrio)
 		{
 			int randomNum = 0; 
-			while(numsAdded.Contains(randomNum))
+			do 
 			{
 				randomNum = Random.Range(0,myDatebase.imageBase.Length);
-			}
+			}while(numsAdded.Contains(randomNum));
 			numsAdded.Add(randomNum);
 			temp.sprite = myDatebase.imageBase[randomNum];
 		}
@@ -72,6 +72,7 @@ public class UIManager : MonoBehaviour {
 	{
 		mainMenuScreen.SetActive(false);
 		wordsModeScreen.SetActive(true);
+
 	}
 
 	public void SetActiveAbstractMode(bool state)

@@ -188,7 +188,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 40735338}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1677548418}
+        m_MethodName: SetAbstractMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &40735338
@@ -441,7 +452,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &353691548
 RectTransform:
   m_ObjectHideFlags: 0
@@ -721,7 +732,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I wanto to reed
+  m_Text: I wanto to read
 --- !u!222 &819925283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1117,7 +1128,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1093003963}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1677548418}
+        m_MethodName: SetWordsMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1093003963
@@ -1169,7 +1191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1101273165
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1632,7 +1654,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1610596179}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1677548418}
+        m_MethodName: SetImageMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1610596179
@@ -1708,10 +1741,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDatebase: {fileID: 11400000, guid: 7ebdf3ba440dca74ea5dd14d61b2518a, type: 2}
-  imageModeScreen: {fileID: 0}
-  wordsModeScreen: {fileID: 0}
-  abstractModeScreen: {fileID: 0}
-  mainMenuScreen: {fileID: 0}
+  imageModeScreen: {fileID: 1101273164}
+  wordsModeScreen: {fileID: 871707189}
+  abstractModeScreen: {fileID: 1855734455}
+  mainMenuScreen: {fileID: 353691547}
   imagesTrio:
   - {fileID: 319021385}
   - {fileID: 1438231193}

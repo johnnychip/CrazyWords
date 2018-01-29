@@ -25,12 +25,12 @@ public class GameManager : MonoBehaviour {
 
 	public void SetWordsMode ()
 	{
-
+		UIManager.Singleton.SetActiveWordsMode(true);
 	}
 
 	public void SetAbstractMode ()
 	{
-
+		UIManager.Singleton.SetActiveAbstractMode(true);
 	}
 
 }
