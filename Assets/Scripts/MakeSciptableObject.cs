@@ -5,7 +5,7 @@ using UnityEditor;
 
 public class MakeSciptableObject : MonoBehaviour {
 
-	/*[MenuItem("Asset/Create/Database")]
+	[MenuItem("Asset/Create/Database")]
 	public static void CreateDatabaseAsset()
 	{
 
@@ -13,5 +13,5 @@ public class MakeSciptableObject : MonoBehaviour {
 		AssetDatabase.CreateAsset (database, "Assets/Scripts/Database.asset");
 		AssetDatabase.SaveAssets ();
 
-	}*/
+	}
 }
