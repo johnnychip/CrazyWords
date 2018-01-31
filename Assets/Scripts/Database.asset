@@ -12,18 +12,74 @@ MonoBehaviour:
   m_Name: Database
   m_EditorClassIdentifier: 
   imageBase:
-  - {fileID: 21300000, guid: cb026b1f28d72c742831a87c3c8a75eb, type: 3}
-  - {fileID: 21300000, guid: 2b7809331e09e7b44aad8e64f394a364, type: 3}
-  - {fileID: 21300000, guid: 043e30ea21973254b914119b1c7be918, type: 3}
-  - {fileID: 21300000, guid: 5a2ece7e6aba43d4fb37032607518d2c, type: 3}
-  - {fileID: 21300000, guid: 6a714f7f56aaa1841b2cc86aeebb26e3, type: 3}
-  - {fileID: 21300000, guid: 7443a54e5dffa6245a21818918bbe7f6, type: 3}
-  - {fileID: 21300000, guid: 9dc5bee3f4782454e86e10b5dd05e02e, type: 3}
-  - {fileID: 21300000, guid: 638353ee9337b0341922dfdfc7bc8beb, type: 3}
-  - {fileID: 21300000, guid: efe111a67b6f93d438e421588d29574d, type: 3}
-  - {fileID: 21300000, guid: 870b0b6835b2f8e4594eaf3b84c0f7e3, type: 3}
-  - {fileID: 21300000, guid: e618e023d11aece4d94c731697af3205, type: 3}
-  - {fileID: 21300000, guid: e54f473351213d44eac35da1851a9560, type: 3}
-  - {fileID: 21300000, guid: be21dcfbf75dd3b4aa36b5db7d397890, type: 3}
-  wordsBase: []
+  - {fileID: 21300000, guid: 3c15d082fb5cc804ab602a4c7188e83a, type: 3}
+  - {fileID: 21300000, guid: d5db1b0a7f182fa44bb7b77db0ff1068, type: 3}
+  - {fileID: 21300000, guid: 0a01c287d14969f43b026a3e6eabb7a5, type: 3}
+  - {fileID: 21300000, guid: 32da4b739956f22438df37551305f037, type: 3}
+  - {fileID: 21300000, guid: cdafc55ea5c8fc647987b016969dc839, type: 3}
+  - {fileID: 21300000, guid: bdcc297ca131c7441825c81eb0543ca2, type: 3}
+  - {fileID: 21300000, guid: 4750718124fc6b84180a3bd7b18cf431, type: 3}
+  - {fileID: 21300000, guid: 6c2e19e12262ca7479ed7b5b73c56ba4, type: 3}
+  - {fileID: 21300000, guid: 460f9620adf7316459e28fda82461f2a, type: 3}
+  - {fileID: 21300000, guid: 8bfa850c870f24e4c804ea1ab90b5a2e, type: 3}
+  - {fileID: 21300000, guid: 4f6e8dc3a106f5545a98ecd28007a518, type: 3}
+  - {fileID: 21300000, guid: 71ea5db2bc7d95f41811a87711ca986b, type: 3}
+  - {fileID: 21300000, guid: 7cd97025059481f4e8fe9e1baed33aa1, type: 3}
+  - {fileID: 21300000, guid: 4903e21a3bb633147bf1f6ea9e66a829, type: 3}
+  - {fileID: 21300000, guid: 835a9366dcdc78a47ab7028c23745ac8, type: 3}
+  - {fileID: 21300000, guid: 0ee898b2508677e4d99715879d044e4f, type: 3}
+  - {fileID: 21300000, guid: 94494872d44f6864d9e92fdbecd060a7, type: 3}
+  - {fileID: 21300000, guid: 20b5cacbd46c79b4a927c082dcff1943, type: 3}
+  - {fileID: 21300000, guid: f59a16ee7bd987b43b21e17262b1114a, type: 3}
+  wordsBase:
+  - tristeza
+  - felicidad
+  - enojo
+  - muerte
+  - frio
+  - calor
+  - grande
+  - bajo
+  - guitarra
+  - bateria
+  - zapato
+  - TV
+  - fuego
+  - hielo
+  - mesa
+  - silla
+  - lapiz
+  - jirafa
+  - elefante
+  - perro
+  - gato
+  - cuchillo
+  - dado
+  - conjuro
+  - magia
+  - demonio
+  - troll
+  - gigante
+  - amarillo
+  - azul
+  - rojo
+  - verde
+  - negro
+  - blanco
+  - angel
+  - alas
+  - cuernos
+  - feo
+  - bonito
+  - horrible
+  - terro
+  - hospital
+  - alcaldia
+  - camisa
+  - pantalon
+  - carpeta
+  - techo
+  - casa
+  - edificio
+  - piel
   abstractBase: []

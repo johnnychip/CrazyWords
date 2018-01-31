@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 8ccd4361c057c9b4f884bf181b789058
+timeCreated: 1517358038
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: sketch me_FREE-version
+  fontNames:
+  - sketch me_FREE-version
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
