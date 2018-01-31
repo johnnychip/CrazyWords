@@ -24,6 +24,8 @@ public class UIManager : MonoBehaviour {
 	[SerializeField]
 	private GameObject mainMenuScreen;
 
+
+
 	[SerializeField]
 	private Image[] imagesTrio;
 
@@ -31,7 +33,7 @@ public class UIManager : MonoBehaviour {
 	private Text[] wordsTrio;
 
 	[SerializeField]
-	private Image[] abstractImage;
+	private Image abstractImage;
 
 	public static UIManager Singleton
 	{
@@ -76,6 +78,7 @@ public class UIManager : MonoBehaviour {
 		mainMenuScreen.SetActive(false);
 		wordsModeScreen.SetActive(true);
 		backButton.SetActive(true);
+		SetWordsTrio();
 	}
 
 	public void SetWordsTrio()
@@ -94,11 +97,18 @@ public class UIManager : MonoBehaviour {
 		}
 	}
 
+	public void SetAbstractImage()
+	{
+		int randomNum = Random.Range(0,myDatebase.abstractBase.Length);
+		abstractImage.sprite = myDatebase.abstractBase[randomNum];
+	}
+
 	public void SetActiveAbstractMode(bool state)
 	{
 		mainMenuScreen.SetActive(false);
 		abstractModeScreen.SetActive(true);
 		backButton.SetActive(true);
+		SetAbstractImage();
 	}
 
 	public void SetActiveMainMenuMode(bool state)
