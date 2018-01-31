@@ -424,11 +424,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8ccd4361c057c9b4f884bf181b789058, type: 3}
-    m_FontSize: 44
+    m_FontSize: 82
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 50
+    m_MaxSize: 82
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -614,7 +614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 307, y: 280}
+  m_AnchoredPosition: {x: 277.1748, y: 336}
   m_SizeDelta: {x: 215, y: 89.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &392295328
@@ -1085,11 +1085,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8ccd4361c057c9b4f884bf181b789058, type: 3}
-    m_FontSize: 92
+    m_FontSize: 131
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 102
+    m_MaxSize: 138
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1188,7 +1188,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I wanto to read
+  m_Text: I want to read
 --- !u!222 &819925283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1262,7 +1262,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I wanto to see
+  m_Text: I want to see
 --- !u!222 &829418931
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1470,7 +1470,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -106, y: 569}
+  m_AnchoredPosition: {x: -133.0752, y: 630}
   m_SizeDelta: {x: 511.2, y: 109.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &934533892
@@ -1546,8 +1546,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -666}
-  m_SizeDelta: {x: 308.3, y: 138.3}
+  m_AnchoredPosition: {x: 0, y: -668}
+  m_SizeDelta: {x: 487.4, y: 218.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1049981874
 MonoBehaviour:
@@ -1866,7 +1866,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1101273165
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1954,8 +1954,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000007629389, y: -666}
-  m_SizeDelta: {x: 308.3, y: 138.3}
+  m_AnchoredPosition: {x: 0, y: -668}
+  m_SizeDelta: {x: 487.4, y: 218.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1136801527
 MonoBehaviour:
@@ -2067,15 +2067,15 @@ RectTransform:
   m_GameObject: {fileID: 1160696827}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1249877, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1855734456}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.339172, y: 0}
-  m_SizeDelta: {x: 800, y: 800}
+  m_AnchoredPosition: {x: 0, y: 150.7}
+  m_SizeDelta: {x: 800, y: 1100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1160696829
 MonoBehaviour:
@@ -2166,11 +2166,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8ccd4361c057c9b4f884bf181b789058, type: 3}
-    m_FontSize: 44
+    m_FontSize: 82
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 50
+    m_MaxSize: 82
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2246,11 +2246,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8ccd4361c057c9b4f884bf181b789058, type: 3}
-    m_FontSize: 92
+    m_FontSize: 131
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 102
+    m_MaxSize: 138
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2325,7 +2325,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I wanto to imagine
+  m_Text: I want to imagine
 --- !u!222 &1205267852
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2462,11 +2462,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8ccd4361c057c9b4f884bf181b789058, type: 3}
-    m_FontSize: 92
+    m_FontSize: 131
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 102
+    m_MaxSize: 138
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2839,8 +2839,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -666}
-  m_SizeDelta: {x: 308.3, y: 138.3}
+  m_AnchoredPosition: {x: 0, y: -668}
+  m_SizeDelta: {x: 487.4, y: 218.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1797035096
 MonoBehaviour:
@@ -2943,7 +2943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1855734456
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3115,11 +3115,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8ccd4361c057c9b4f884bf181b789058, type: 3}
-    m_FontSize: 44
+    m_FontSize: 82
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 50
+    m_MaxSize: 82
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -3165,7 +3165,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 41.80003, y: 382.5}
+  m_AnchoredPosition: {x: 17.174805, y: 440}
   m_SizeDelta: {x: 811.7, y: 390.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2046802914

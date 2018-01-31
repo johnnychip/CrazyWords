@@ -82,4 +82,14 @@ MonoBehaviour:
   - casa
   - edificio
   - piel
-  abstractBase: []
+  abstractBase:
+  - {fileID: 21300000, guid: ff099ea1cc1300840a3bce6c154db966, type: 3}
+  - {fileID: 21300000, guid: df3d40198b061f44994c73f2a8cb49c7, type: 3}
+  - {fileID: 21300000, guid: c9c44f65c0d9e354489e7af552ddb983, type: 3}
+  - {fileID: 21300000, guid: 3238753f71e26ca40941307da06712b8, type: 3}
+  - {fileID: 21300000, guid: 33c90c143c870c24290c691f72048e49, type: 3}
+  - {fileID: 21300000, guid: e0516479b0cd9c342869af2ee0e3022f, type: 3}
+  - {fileID: 21300000, guid: 35511162bd046cf4e90329071f62f792, type: 3}
+  - {fileID: 21300000, guid: de4e9915532853f4180d760205eb9ed2, type: 3}
+  - {fileID: 21300000, guid: 74637e36e6632f141b9d9289ca078620, type: 3}
+  - {fileID: 21300000, guid: a174798217cd5eb408a370c75c6fa357, type: 3}
