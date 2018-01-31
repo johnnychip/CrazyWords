@@ -10,6 +10,9 @@ public class UIManager : MonoBehaviour {
 	private Database myDatebase;
 
 	[SerializeField]
+	private GameObject backButton;
+
+	[SerializeField]
 	private GameObject imageModeScreen;
 
 	[SerializeField]
@@ -47,7 +50,7 @@ public class UIManager : MonoBehaviour {
 	{
 		mainMenuScreen.SetActive(false);
 		imageModeScreen.SetActive(true);
-
+		backButton.SetActive(true);
 		SetImageTrio();
 
 	}
@@ -72,7 +75,7 @@ public class UIManager : MonoBehaviour {
 	{
 		mainMenuScreen.SetActive(false);
 		wordsModeScreen.SetActive(true);
-
+		backButton.SetActive(true);
 	}
 
 	public void SetWordsTrio()
@@ -95,6 +98,7 @@ public class UIManager : MonoBehaviour {
 	{
 		mainMenuScreen.SetActive(false);
 		abstractModeScreen.SetActive(true);
+		backButton.SetActive(true);
 	}
 
 	public void SetActiveMainMenuMode(bool state)
@@ -103,6 +107,7 @@ public class UIManager : MonoBehaviour {
 		wordsModeScreen.SetActive(false);
 		abstractModeScreen.SetActive(false);
 		mainMenuScreen.SetActive(true);
+		backButton.SetActive(false);
 	}
 
 }

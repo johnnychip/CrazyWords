@@ -754,7 +754,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &577466429
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2778,6 +2778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDatebase: {fileID: 11400000, guid: 7ebdf3ba440dca74ea5dd14d61b2518a, type: 2}
+  backButton: {fileID: 577466428}
   imageModeScreen: {fileID: 1101273164}
   wordsModeScreen: {fileID: 871707189}
   abstractModeScreen: {fileID: 1855734455}
